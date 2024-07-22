@@ -1,0 +1,41 @@
+/* components/LeaderboardAndRewards.module.css */
+.leaderboardContainer {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.leaderboardTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.tableHeader {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableData {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.rewardsInfo {
+  margin-bottom: 30px;
+}
+
+.ctaButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+}
